@@ -9,13 +9,13 @@
 int main() {
     int i, j, n = 5, space;
 
-    // Outer loop for rows
+    
     for (i = n; i >= 1; i--) {
-        // Print leading spaces
+        
         for (space = 1; space < i; space++) {
             printf(" ");
         }
-        // Print numbers from i to n
+        
         for (j = i; j <= n; j++) {
             printf("%d", j);
         }
