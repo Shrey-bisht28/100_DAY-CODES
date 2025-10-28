@@ -11,9 +11,8 @@
 
 int main() {
     int i, j;
-    int n = 4; // Number of rows in the top half (including middle row)
-
-    // Top half of the diamond
+    int n = 4; 
+    
     for(i = 1; i <= n; i++) {
         // Print leading spaces
         for(j = 1; j <= n - i; j++) {
@@ -26,7 +25,7 @@ int main() {
         printf("\n");
     }
 
-    // Bottom half of the diamond
+    
     for(i = n-1; i >= 1; i--) {
         // Print leading spaces
         for(j = 1; j <= n - i; j++) {
