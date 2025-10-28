@@ -12,7 +12,7 @@
 
 int main() {
     int i, j;
-    int n = 5; // number of rows in the top half (maximum stars)
+    int n = 5;
 
     
     for(i = 1; i <= n; i++) {
