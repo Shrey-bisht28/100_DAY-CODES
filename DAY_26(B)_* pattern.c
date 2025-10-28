@@ -20,23 +20,23 @@
   #include <stdio.h>
 
 int main() {
-    // First group (4 stars)
+    
     for(int i = 0; i < 4; i++) {
         printf("*\n");
     }
-    printf("\n"); // Blank line between groups
+    printf("\n"); 
 
-    // Second group (5 stars)
+    
     for(int i = 0; i < 5; i++) {
         printf("*\n");
     }
-    printf("\n"); // Blank line between groups
+    printf("\n"); 
 
-    // Third group (3 stars)
+   
     for(int i = 0; i < 3; i++) {
         printf("*\n");
     }
-    printf("\n"); // Blank line between groups
+    printf("\n"); 
 
     // Fourth group (1 star)
     printf("*\n");
